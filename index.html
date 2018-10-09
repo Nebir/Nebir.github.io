@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="css/main.css" />
         <link rel="stylesheet" href="css/responsive.css" />
         <link rel="stylesheet" href="css/light_template.html" />
-        <link rel="stylesheet" href="css/colors/default-color.css" />
+        <link rel="stylesheet" href="css/colors/blue-color.css" />
         
         <!-- Plugins -->
         <link rel="stylesheet" href="css/magnific-popup.css" />
@@ -34,7 +34,7 @@
         
         <!-- Start Section Tool Box -->
         
-        <div class="option-box">
+        <!-- <div class="option-box">
             <div class="color-option">
                 <ul class="list-unstyled colors">
                     <li data-value="css/colors/default-color.css"></li>
@@ -51,7 +51,7 @@
             <div class="gear-check">
                 <i class="fas fa-cog fa-spin"></i>
             </div>
-        </div>
+        </div> -->
         
         <!-- End Section Tool Box -->
         
@@ -84,12 +84,12 @@
                                 <span class="name-menu">About</span>
                             </a>
                         </li>
-                        <!-- <li id="serv" class="nav-item">
-                            <a href="#serv-cont" data-value="serv-cont">
+                        <li id="resume" class="nav-item">
+                            <a href="#resume-cont" data-value="resume-cont">
                             <i class="icon-layers" hidden></i>
-                                <span class="name-menu">Services</span>
+                                <span class="name-menu">Resume</span>
                             </a>
-                        </li> -->
+                        </li>
                         <li id="work" class="nav-item">
                             <a href="#work-cont" data-value="work-cont">
                             <i class="icon-picture" hidden></i>
@@ -138,7 +138,7 @@
                 <div class="zoomoutheader"></div>
             </div>
             <div class="title">
-                <h1 class="text-uppercase"><strong>Mustafijur Rahman</strong> <br> <span class="kaushan">Nebir</span></h1>
+                <h1 class="text-uppercase"><strong>MD. Mustafijur <br>Rahman</strong> Nebir </h1>
                 <p class="type"></p>  <!-- You Can Edit the title on the custom.js File -->
                 <div class="btn-home">
                     <a href="#work-cont">Portfolio</a>
@@ -157,100 +157,116 @@
             <div class="container">
                 
                 <div class="row">
-                    <div class="col-md-10 col-lg-6">
+                    <div class="col-md-10 col-lg-5">
                         <div class="about-img bg-image"></div> 
                         <!-- go to main.scss file to edit personal image -->
                     </div>
-                    <div class="col-md-12 col-lg-6">
+                    <div class="col-md-12 col-lg-7">
                         <div class="tabs-about">
                             <ul class="nav nav-tabs text-center" id="myTab" role="tablist">
                                 
-                                <!-- Start About Me Title Tab -->
+                                <!-- Start Profile Tab -->
                                 <li class="nav-item">
-                                    <a class="nav-link active" id="about-tab" data-toggle="tab" href="#aboutme" role="tab" aria-controls="about" aria-expanded="true">
+                                    <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile">
                                         <i class="icon-male-user"></i>
-                                        <span>About me</span>
-                                    </a>
-                                </li>
-                                <!-- End About Me Title Tab -->
-                                
-                                <!-- ================ -->
-                                
-                                <!-- Start Profile Title Tab -->
-                                <li class="nav-item">
-                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile">
-                                        <i class="icon-star"></i>
                                         <span>Profile</span>
                                     </a>
                                 </li>
-                                <!-- End Profile Title Tab -->
+                                <!-- End Profile Tab -->
                                 
                                 <!-- ================ -->
                                 
-                                <!-- Start Skills Title Tab -->
+                                <!-- Start Educational Background Tab -->
                                 <li class="nav-item">
-                                    <a class="nav-link" id="skill-tab" data-toggle="tab" href="#skill" role="tab" aria-controls="skill">
-                                        <i class="icon-magic-wand"></i>
-                                        <span>Skills</span>
+                                    <a class="nav-link" id="education-tab" data-toggle="tab" href="#education" role="tab" aria-controls="education">
+                                        <i class="icon-graduation-cap"></i>
+                                        <span>Educational Background</span>
                                     </a>
                                 </li>
-                                <!-- End Skills Title Tab -->
+                                <!-- End Educational Background Tab -->
+
+                                <!-- ================ -->
+                                
+                                <!-- Start Extra Curricular Tab -->
+                                <li class="nav-item">
+                                    <a class="nav-link" id="extra-curricular-tab" data-toggle="tab" href="#extra-curricular" role="tab" aria-controls="extra-curricular">
+                                        <i class="icon-magic-wand"></i>
+                                        <span>Extra Curricular Activities</span>
+                                    </a>
+                                </li>
+                                <!-- End Extra Curricular Tab -->
                             </ul>
                             <div class="tab-content" id="myTabContent">
                                 
-                                <!-- Start About Me Tab -->
-                                <div class="tab-pane fade show active text-left" id="aboutme" role="tabpanel" aria-labelledby="about-tab">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua labo ris nisi ut aliquip ex ea commodo consequat.</p>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                    <p>Hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
-                                    <img src="images/signature.png" class="img-fluid signature" alt="signature"/>
-                                    <!-- Here image Signature -->
-                                </div>
-                                <!-- End About Me Tab -->
-                                
-                                <!-- ================ -->
-                                
                                 <!-- Start Profile Tab -->
-                                <div class="tab-pane fade text-left profile" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                    <h6><span class="title-info">Name :</span><span>Reva Smith</span></h6> <!-- Edit Your Name  -->
-                                    <h6><span class="title-info">Nationality : </span><span>Moroccan</span></h6> <!-- Edit Your Nationality  -->
-                                    <h6><span class="title-info">Email : </span><span>reva@email.com</span></h6> <!-- Edit Your Email  -->
-                                    <h6><span class="title-info">Date of birth : </span><span>09-30-1991</span></h6> <!-- Edit Your Date Of Birth  -->
-                                    <h6><span class="title-info">Phone : </span><span>+123 456 7890</span></h6> <!-- Edit Your Phone -->
-                                    
-                                    <div class="btn-about">
-                                        <a href="#">Download Resume</a>
-                                    </div>
+                                <div class="tab-pane fade show active text-left profile" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <h6><span class="title-info">Name :</span><span>Md. Mustafijur Rahman Nebir</span></h6>
+                                    <h6><span class="title-info">Nationality : </span><span>Bangladeshi</span></h6>
+                                    <h6><span class="title-info">Email : </span><span>nebir1993@gmail.com</span></h6>
+                                    <h6><span class="title-info">Date of birth : </span><span>13-12-1995</span></h6>
+                                    <h6><span class="title-info">Phone : </span><span>+880 155 3572766</span></h6>
                                 </div>
                                 <!-- End Profile Tab -->
                                 
                                 <!-- ================ -->
                                 
                                 <!-- Start Skills Tab -->
-                                <div class="tab-pane fade skill" id="skill" role="tabpanel" aria-labelledby="skill-tab">
-                                    <div class="skills">
-                                        <p class="progress-text">Html</p> <!-- Here You Can Edit The Name Of Skill -->
-                                        <div class="progress">
-                                            <div class="progress-bar" data-present="85%"></div> <!-- Here You Can Edit The Percentage -->
-                                        </div>
-                                        <p class="progress-text">Photoshop</p> <!-- Here You Can Edit The Name Of Skill -->
-                                        <div class="progress">
-                                            <div class="progress-bar" data-present="70%"></div> <!-- Here You Can Edit The Percentage -->
-                                        </div>
-                                        <p class="progress-text">Javascript</p> <!-- Here You Can Edit The Name Of Skill -->
-                                        <div class="progress">
-                                            <div class="progress-bar" data-present="60%"></div> <!-- Here You Can Edit The Percentage -->
-                                        </div>
-                                        <p class="progress-text">Php</p> <!-- Here You Can Edit The Name Of Skill -->
-                                        <div class="progress">
-                                            <div class="progress-bar" data-present="80%"></div> <!-- Here You Can Edit The Percentage -->
-                                        </div>
-                                    </div>
-                                    <div class="btn-about">
-                                        <a href="#contact-cont">Hire me</a>
-                                    </div>
+                                <div class="tab-pane fade education" id="education" role="tabpanel" aria-labelledby="education-tab">
+                                    <table class="table table-responsive table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Degree / Certificate</th>
+                                                <th>Institution</th>
+                                                <th>Department / Stream</th>
+                                                <th>Passed Year</th>
+                                                <th>Result</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>B.Sc Engineering</td>
+                                                <td>Shahjalal University of Science &amp; Technology, Sylhet (SUST)</td>
+                                                <td>Computer Science &amp; Engineering (CSE)</td>
+                                                <td>2017</td>
+                                                <td>CGPA: 3.14</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Higher Secondary Certificate (H.S.C)</td>
+                                                <td>Govt. Science College, Dhaka</td>
+                                                <td>Science</td>
+                                                <td>2012</td>
+                                                <td>GPA: 5.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Secondary School Certificate (S.S.C)</td>
+                                                <td>Monipur High School, Dhaka</td>
+                                                <td>Science</td>
+                                                <td>2010</td>
+                                                <td>GPA: 5.00</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                                 <!-- End Skills Tab -->
+
+                                <!-- ================ -->
+                                
+                                <!-- Extra Curricular Tab -->
+                                <div class="tab-pane fade text-left profile" id="extra-curricular" role="tabpanel" aria-labelledby="extra-curricular-tab">
+                                    <ul style="border-bottom: none;">
+                                        <li><strong>Assistant General Secretary</strong> : CSE Society <i>(March 2014 – March 2016)</i></li>
+                                        <li><strong>Executive Member</strong> : CSE Society <i>(February 2013 – March 2014)</i></li>
+                                        <li><strong>Class Representative</strong> : SUST CSE 21st Batch <i>(February 2013 – February 2014)</i></li>
+                                        <li><strong>General Member</strong> :
+                                            <ul style="border-bottom: none;">
+                                                <li>Shikorh, a cultural organization of SUST</li>
+                                                <li>KIN, a voluntary organization of SUST</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Voluntary Blood Donor</strong> : Bangladesh Red Crescent Society, Quantum Foundation</li>
+                                    </ul>
+                                </div>
+                                <!-- End Profile Tab -->
                             </div>
                         </div>
                     </div>
@@ -261,61 +277,169 @@
         <!-- End About -->
         
         
-        <!-- Start Services -->
-        <section id="serv-cont" class="serv">
+        <!-- Start Resume -->
+        <section id="resume-cont" class="resume">
             <div class="title">
-                <h1 class="kaushan">Services</h1>
+                <h1 class="kaushan">Resume</h1>
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="servs">
+                <div class="content experience">
+                    <!-- title -->
+                    <h4 style="margin-bottom: 40px;"><i class="icon-briefcase"></i> Professional Experience</h4>
+
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1">
                             <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="content">
-                                        <img src="images/icons/processing.png" alt="serv1" />
-                                        <h4>Web Development</h4>
-                                        <p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit, sed do tempor .</p>
+                                <!-- infancyit -->
+                                <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                    <div class="resume-title border-line-h">
+                                        <div class="name">
+                                            <img class="img-responsive" style="float: right; margin-top: -25px;" width="80" src="images/infancy_logo.svg">
+                                            <a href="https://infancyit.com/" target="_blank">InfancyIT</a>
+                                        </div>
+                                    </div>
+                                    <div class="resume-items">
+                                        <div class="resume-item border-line-h active">
+                                            <div class="date">October, 2018 - Present</div>
+                                            <div class="name">Software Engineer</div>
+                                        </div>
+                                        <div class="resume-item border-line-h">
+                                            <div class="date">October 2017 - September 2018</div>
+                                            <div class="name">Junior Software Engineer</div>
+                                        </div>
+                                        <div class="resume-item">
+                                            <div class="date">August 2017 - September 2017</div>
+                                            <div class="name">Intern</div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="content">
-                                        <img src="images/icons/browser.png" alt="serv1" />
-                                        <h4>Management</h4>
-                                        <p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit, sed do tempor .</p>
+
+                                <!-- technext -->
+                                <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                    <div class="resume-title border-line-h">
+                                        <div class="name">
+                                            <img src="images/techenxt-logo.png" style="float: right; margin-top: -25px;" width="40" class="img-responsive">
+                                            <a href="https://technext.it/" target="_blank">Technext Limited</a>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="content">
-                                        <img src="images/icons/instagram.png" alt="serv1" />
-                                        <h4>Photography</h4>
-                                        <p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit, sed do tempor .</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="content">
-                                        <img src="images/icons/support.png" alt="serv1" />
-                                        <h4>Support</h4>
-                                        <p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit, sed do tempor .</p>
+                                    <div class="resume-items">
+                                        <div class="resume-item border-line-h">
+                                            <div class="date">July 2013 - July 2017</div>
+                                            <div class="name">Front End Web Developer</div>
+                                        </div>
+
+                                        <div class="resume-item">
+                                            <div class="date">April 2016 - July 2017</div>
+                                            <div class="name">Support Engineer</div>
+                                            <div class="company"><a href="https://themewagon.com/" target="_blank">ThemeWagon</a></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="clear"></div>
                     </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="serv-vid bg-image">
-                            <a class="play video" href="https://www.youtube.com/watch?v=96kI8Mp1uOU"> <!-- you can edit the link here -->
-                                <i class="fas fa-play"></i>
-                            </a>
+                </div>
+
+                <div class="content skills">
+                    <!-- title -->
+                    <h4 style="margin: 40px 0px;"><i class="icon-diamond"></i> My Skills</h4>
+
+                    <!-- content -->
+                    <div class="row">
+                        <div  class="col-md-10 offset-md-1">
+                            <div class="row">
+                                <!-- skill item -->
+                                <div class="col border-line-v">
+                                    <div class="skills-list">
+                                        <div class="skill-title border-line-h">
+                                            <div class="name">Language &amp; Database</div>
+                                        </div>
+                                        <div class="skills">
+                                            <p class="progress-text">HTML & CSS</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" data-present="95%"></div>
+                                            </div>
+                                            <p class="progress-text">PHP</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" data-present="80%"></div>
+                                            </div>
+                                            <p class="progress-text">Javascript</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" data-present="65%"></div>
+                                            </div>
+                                            <p class="progress-text">MySQL</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" data-present="75%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- skill item -->
+                                <div class="col border-line-v">
+                                    <div class="skills-list">
+                                        <div class="skill-title border-line-h">
+                                            <div class="name">CMS &amp; Frameworks</div>
+                                        </div>
+                                        <div class="skills">
+                                            <p class="progress-text">Bootstrap</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" data-present="95%"></div>
+                                            </div>
+                                            <p class="progress-text">Wordpress</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" data-present="70%"></div>
+                                            </div>
+                                            <p class="progress-text">Laravel</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" data-present="80%"></div>
+                                            </div>
+                                            <p class="progress-text">Vue</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" data-present="50%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- other skill -->
+                                <div class="col border-line-v">
+                                    <div class="skills-list">
+                                        <div class="skill-title border-line-h">
+                                            <div class="name">Others</div>
+                                        </div>
+                                        <div class="skills">
+                                            <p class="progress-text">jQuery / Ajax</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" data-present="70%"></div>
+                                            </div>
+                                            <p class="progress-text">Android</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" data-present="50%"></div>
+                                            </div>
+                                            <p class="progress-text">Git</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" data-present="80%"></div>
+                                            </div>
+                                            <p class="progress-text">Agile</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" data-present="75%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
+                        <div class="clear"></div>
                     </div>
+
                 </div>
             </div>
         </section>
         
-        <!-- End Services -->
+        <!-- End Resume -->
         
         
         <!-- Start Work -->
@@ -511,150 +635,6 @@
         </section>
         
         <!-- End Work -->
-        
-        
-        <!-- Start Testimonials -->
-        <section id="testim-cont" class="testim">
-            <div class="title">
-                <h1 class="kaushan">Testimonials</h1>
-            </div>
-            <div class="container">
-                <div class="tabbable tabs-left">
-                    <div class="list-tabs">
-                        <ul class="nav nav-tabs">
-                            <!-- Start Image Client 1 -->
-                            <li class="">
-                                <a href="#a" data-toggle="tab" aria-expanded="false">
-                                    <div class="image-tab image-testim1 bg-image"></div>
-                                </a>
-                            </li>
-                            <!-- End Image Client 1 -->
-                            <!-- Start Image Client 2 -->
-                            <li class="">
-                                <a href="#b" data-toggle="tab" aria-expanded="false">
-                                    <div class="image-tab image-testim2 bg-image"></div>
-                                </a>
-                            </li>
-                            <!-- End Image Client 2 -->
-                            <!-- Start Image Client 3 -->
-                            <li class="active">
-                                <a href="#c" data-toggle="tab" aria-expanded="false">
-                                    <div class="image-tab image-testim3 bg-image"></div>
-                                </a>
-                            </li>
-                            <!-- End Image Client 3 -->
-                            <!-- Start Image Client 4 -->
-                            <li class="">
-                                <a href="#d" data-toggle="tab" aria-expanded="false">
-                                    <div class="image-tab image-testim4 bg-image"></div>
-                                </a>
-                            </li>
-                            <!-- End Image Client 4 -->
-                            <!-- Start Image Client 5 -->
-                            <li class="">
-                                <a href="#e" data-toggle="tab" aria-expanded="false">
-                                    <div class="image-tab image-testim5 bg-image"></div>
-                                </a>
-                            </li>
-                            <!-- End Image Client 5 -->
-                        </ul>
-                    </div>
-                    <div class="tab-content">
-                        <!-- Start Content Client 1 -->
-                        <div class="tab-pane" id="a">
-                            <div class="profile-image">
-                                <div class="image-tab image-testim1 bg-image"></div>
-                            </div>
-                            <div class="profile-details">
-                                <i class="fas fa-quote-left"></i>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <h4>John Doe</h4>
-                                <i class="fas fa-quote-right"></i>
-                            </div>
-                        </div>
-                        <!-- End Content Client 1 -->
-                        <!-- Start Content Client 2 -->
-                        <div class="tab-pane" id="b">
-                            <div class="profile-image">
-                                <div class="image-tab image-testim2 bg-image"></div>
-                            </div>
-                            <div class="profile-details">
-                                <i class="fas fa-quote-left"></i>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-                                <h4>Joshua Earle</h4>
-                                <i class="fas fa-quote-right"></i>
-                            </div>
-                        </div>
-                        <!-- End Content Client 2 -->
-                        <!-- Start Content Client 3 -->
-                        <div class="tab-pane active" id="c">
-                            <div class="profile-image">
-                                <div class="image-tab image-testim3 bg-image"></div>
-                            </div>
-                            <div class="profile-details">
-                                <i class="fas fa-quote-left"></i>
-                                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam.</p>
-                                <h4>Matthew Dix</h4>
-                                <i class="fas fa-quote-right"></i>
-                            </div>
-                        </div>
-                        <!-- End Content Client 3 -->
-                        <!-- Start Content Client 4 -->
-                        <div class="tab-pane" id="d">
-                            <div class="profile-image">
-                                <div class="image-tab image-testim4 bg-image"></div>
-                            </div>
-                            <div class="profile-details">
-                                <i class="fas fa-quote-left"></i>
-                                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
-                                <h4>Mike Petrucci</h4>
-                                <i class="fas fa-quote-right"></i>
-                            </div>
-                        </div>
-                        <!-- End Content Client 4 -->
-                        <!-- Start Content Client 5 -->
-                        <div class="tab-pane" id="e">
-                            <div class="profile-image">
-                                <div class="image-tab image-testim5 bg-image"></div>
-                            </div>
-                            <div class="profile-details">
-                                <i class="fas fa-quote-left"></i>
-                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
-                                <h4>Lauren Dix</h4>
-                                <i class="fas fa-quote-right"></i>
-                            </div>
-                        </div>
-                        <!-- End Content Client 5 -->
-                    </div>
-                </div>
-            </div>
-            <!-- Start Client -->
-
-            <div class="client bg-image">
-                <div class="overlay-cl"></div>
-                <div class="logos">
-                    <div class="row">
-                        <div class="col-lg-2 col-md-4 col-6">
-                            <img src="images/clients/brand_1.png" alt="brand 1">
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-6">
-                            <img src="images/clients/brand_2.png" alt="brand 2">
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-6">
-                            <img src="images/clients/brand_3.png" alt="brand 3">
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-6">
-                            <img src="images/clients/brand_4.png" alt="brand 4">
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-6 last">
-                            <img src="images/clients/brand_1.png" alt="brand 5">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- End Client -->
-        </section>
         
         <!-- Start Contact -->
         <section id="contact-cont" class="contact">
