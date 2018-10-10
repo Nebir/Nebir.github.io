@@ -50,7 +50,7 @@ footer p a:hover,
 
 .navbar .logo .bg_logo,
 .serv .content img {
-  filter: hue-rotate(120deg); }
+  filter: hue-rotate(-147deg) contrast(4) grayscale(60%); }
 
 .background-gradient {
   background: #55aea1;
