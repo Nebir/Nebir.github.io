@@ -6,7 +6,8 @@ footer p a:hover,
 .serv .serv-vid .play i,
 .about .tabs-about .nav-link.active,
 .navbar .social-media a:hover,
-.navbar .nav-item.active-nav a {
+.navbar .nav-item.active-nav a,
+.title h1 {
   color: #55aea1; }
 
 .maps .open-map,

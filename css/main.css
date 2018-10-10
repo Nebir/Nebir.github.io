@@ -611,7 +611,7 @@ section:not(:first-of-type) {
   .title h1 {
     position: relative;
     font-size: 42px;
-    color: #fff; }
+    color: #1e1e1e; }
     .title h1:before {
       position: absolute;
       color: #efefef;
@@ -619,6 +619,9 @@ section:not(:first-of-type) {
       left: -5px;
       top: 12px;
       z-index: -1; }
+.home .title h1 {
+  color: #fff; 
+}
       .title .type {
         color: #fff;
       }
