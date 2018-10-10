@@ -1163,6 +1163,7 @@ section.close-menu {
     height: 3px;
     margin-bottom: 17px;
     overflow: visible; 
+    border: 1px solid #55aea1;
 }
 .skills .progress .progress-bar {
     float: left;
