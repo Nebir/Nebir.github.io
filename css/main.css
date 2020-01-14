@@ -732,16 +732,17 @@ div > a > img {
     z-index: 1;
     height: 80px; }
     .navbar .logo .bg_logo {
-      background-image: url(../images/site-logo.jpg);
+      background-image: url(../images/favicon.jpg);
+      filter: none !important;
       /* Here The Light Logo */
-      background-size: 50px;
+      background-size: 75px;
       background-repeat: no-repeat;
       background-position: center;
-      height: 50px;
+      height: 75px;
       display: inline-block;
       width: 100%;
       position: absolute;
-      top: 25px;
+      top: 20px;
       left: 0; }
     .navbar .logo .bg_logo_dark {
       background-image: url(../images/site-logo.jpg);
